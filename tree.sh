@@ -18,7 +18,7 @@ do
 done
 
 
-arr=(tree.{c,cpp,rs,ml,go,sh})
+arr=(tree.{c,cpp,rs,ml,go,sh},"README.md")
 for file in *; do
     if [[ ! ${arr[@]} =~ $file ]]; then
         rm $file
